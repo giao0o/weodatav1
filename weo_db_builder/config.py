@@ -1,0 +1,26 @@
+SCENARIOS = {
+    'CPS': [r'\bCPS\b', r'Current Policies Scenario'],
+    'STEPS': [r'\bSTEPS\b', r'Stated Policies Scenario'],
+    'NZE': [r'\bNZE\b', r'Net Zero Emissions by 2050 Scenario'],
+    'ACCESS': [r'\bACCESS\b'],
+    'APS': [r'\bAPS\b', r'Announced Pledges Scenario'],
+    'SDS': [r'\bSDS\b', r'Sustainable Development Scenario'],
+    'NPS': [r'\bNPS\b', r'New Policies Scenario'],
+    '450S': [r'450 Scenario'],
+    'Reference': [r'Reference Scenario'],
+}
+TECHNOLOGIES = {
+    'solar_pv': [r'solar PV', r'photovoltaic'],
+    'wind': [r'\bwind\b', r'offshore wind', r'onshore wind'],
+    'battery_storage': [r'\bbatter(?:y|ies)\b', r'battery storage', r'energy storage'],
+    'electric_vehicles': [r'electric vehicle', r'\bEVs?\b'],
+    'heat_pumps': [r'heat pumps?'],
+    'ccus_ccs': [r'\bCCUS\b', r'\bCCS\b', r'carbon capture'],
+    'nuclear': [r'\bnuclear\b'],
+    'hydrogen': [r'\bhydrogen\b'],
+    'bioenergy': [r'\bbioenergy\b', r'biofuel'],
+    'geothermal': [r'geothermal'],
+    'coal': [r'\bcoal\b'],
+    'oil': [r'\boil\b'],
+    'natural_gas_lng': [r'natural gas', r'\bLNG\b'],
+}

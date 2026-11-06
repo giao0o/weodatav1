@@ -1,0 +1,1 @@
+MIT License. The program does not redistribute IEA report content. Users are responsible for source-data licensing and citation.

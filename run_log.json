@@ -1,0 +1,21 @@
+{
+  "results": [
+    {
+      "file": "WorldEnergyOutlook2025.pdf",
+      "status": "ingested",
+      "document_id": 1,
+      "year": 2025,
+      "pages": 519,
+      "mention_rows": 2162
+    }
+  ],
+  "database": "run_output/weo_research.db",
+  "exports": "run_output/exports",
+  "stats": {
+    "documents": 1,
+    "pages": 519,
+    "mentions": 2162,
+    "projections": 0,
+    "realized_values": 0
+  }
+}
